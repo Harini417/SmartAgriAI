@@ -1,0 +1,27 @@
+package com.smartagri.backend.controller;
+
+import com.smartagri.backend.entity.UserSettings;
+import com.smartagri.backend.service.UserSettingsService;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/settings")
+@CrossOrigin(origins = "*")
+public class SettingsController {
+
+    private final UserSettingsService service;
+
+    public SettingsController(UserSettingsService service) {
+        this.service = service;
+    }
+
+    @GetMapping
+    public UserSettings getSettings() {
+        return service.getSettings();
+    }
+
+    @PutMapping
+    public UserSettings saveSettings(@RequestBody UserSettings settings) {
+        return service.saveSettings(settings);
+    }
+}
