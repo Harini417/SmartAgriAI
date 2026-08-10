@@ -164,9 +164,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 📸 Screenshots
-
-You can add screenshots here after uploading them.
+## Modules
 
 - Login Page
 - Dashboard
