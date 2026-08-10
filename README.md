@@ -186,13 +186,6 @@ You can add screenshots here after uploading them.
 - Live Weather API
 - Cloud Deployment
 
----
-
-## 👩‍💻 Developer
-
-**Harini M**
-
-GitHub: https://github.com/Harini417
 
 ---
 
